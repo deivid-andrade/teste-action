@@ -14,7 +14,7 @@ permissions:
 jobs:
   test-docker:
     name: Docker Tests
-    runs-on: ubuntu-latest
+    runs-on: self-hosted
 
     # Run a local registry to push to
     services:
